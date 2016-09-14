@@ -4,9 +4,9 @@
     <string name="welcome_text"></string>
     <string name="btn_cont"></string>
     <string name="btn_look">Just Look</string>
-    <string name="btn_abt"></string>
-    <string name="btn_audio"></string>
-    <string name="btn_video"></string>
+    <string name="btn_abt">About</string>
+    <string name="btn_audio">Audio</string>
+    <string name="btn_video">Video</string>
     <string name="btn_pic"></string>
     <string name="cont_text"></string>
     <string name="tmp"></string>
