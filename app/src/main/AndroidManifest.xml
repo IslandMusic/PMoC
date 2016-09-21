@@ -8,9 +8,9 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission
-        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:name="android.permission.ACCESS_FINE_LOCATION"/>
         <!--android:name="android.permission.INTERNET"-->
-        />
+
     <application
         android:debuggable="true"
         android:allowBackup="true"
@@ -33,14 +33,15 @@
             android:value="@string/google_maps_key" />
 
 
-        <activity
+        <!--<activity
             android:name=".Welcome"
             android:label="@string/title_activity_welcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>-->
+
 <!--Multiple intent filters for
 https://developer.android.com/guide/components/intents-filters.html
 https://developer.android.com/guide/components/services.html
@@ -51,9 +52,9 @@ https://developer.android.com/guide/components/services.html
             android:name=".MapSelector"
             android:label="@string/title_activity_map_selector">
             <intent-filter>
-                <!-- <action android:name="android.intent.action.MAIN" />
+                 <action android:name="android.intent.action.MAIN" />
 
-                 <category android:name="android.intent.category.LAUNCHER" />-->
+                 <category android:name="android.intent.category.LAUNCHER" />
              </intent-filter>
          </activity>
      </application>

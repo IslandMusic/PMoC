@@ -49,8 +49,9 @@ public class MapSelector extends FragmentActivity implements OnMapReadyCallback 
     }
 }
 
-    public void addMediaLoc(GoggleMap googleMap, ){
+    //This is bugged tag to be fixed
+    /*public void addMediaLoc(GoggleMap googleMap, ){
 
 
         mMap.addMarker(new MarkerOptions().position(lndMrkLoc).title(lndMrkName));
-    }
+    }*/
