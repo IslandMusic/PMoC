@@ -24,10 +24,10 @@ public class MapSelector extends FragmentActivity implements OnMapReadyCallback 
         mapFragment.getMapAsync(this);
     }
 
-    public void sendMessage(View view) {
+   // public void sendMessage(View view) {
         // Do something in response to button
         // Display window/screen with about text and web-link/emails
-    }
+    //}
 
     /**
      * Manipulates the map once available.
