@@ -2,12 +2,15 @@
     <string name="app_name">APeoplesMapofCorvallisApp</string>
     <string name="title_activity_map_selector">AreaMap</string>
     <string name="welcome_text"></string>
+    <string name="pic_text">Add a photo from your gallery or take a picture of something you made!</string>
     <string name="btn_cont"></string>
     <string name="btn_look">Just Look</string>
     <string name="btn_abt"></string>
-    <string name="btn_audio"></string>
-    <string name="btn_video"></string>
-    <string name="btn_pic"></string>
-    <string name="cont_text"></string>
+    <string name="btn_audio">Audio</string>
+    <string name="btn_video">Video</string>
+    <string name="btn_pic">Picture</string>
+    <string name="cont_text">Contribute to A People's Map of Corvallis!</string>
+    <string name="camera">Camera</string>
+    <string name="upload_pic">Upload</string>
     <string name="tmp"></string>
 </resources>
