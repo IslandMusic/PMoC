@@ -10,13 +10,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/welcome_text"
-        android:text="Welcome to the Peoples Map of Corvallis" />
+        android:text="@string/welcome_tit" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="This app is create with you in mind. Come join us in creating the world we see around us."
+        android:text="@string/welcome_text"
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.84" />
@@ -25,21 +25,21 @@
         android:layout_width="212dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Contribute"
-        android:id="@+id/btn_contribute" />
+        android:id="@+id/btn_contribute"
+        android:text="@string/btn_cont" />
 
     <Button
         android:layout_width="211dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Just Look"
+        android:text="@string/btn_look"
         android:id="@+id/btn_jslk" />
 
     <Button
         android:layout_width="209dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="About"
+        android:text="@string/btn_abt"
         android:id="@+id/btn_about"
         android:onClick="sendMessage"/>
 
