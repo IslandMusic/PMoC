@@ -53,8 +53,9 @@ https://developer.android.com/guide/components/services.html
             android:label="@string/title_activity_map_selector">
             <intent-filter>
                  <action android:name="android.intent.action.MAIN" />
-
                  <category android:name="android.intent.category.LAUNCHER" />
+
+
              </intent-filter>
          </activity>
      </application>
