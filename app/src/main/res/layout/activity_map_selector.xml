@@ -17,7 +17,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/nothing" />
+        android:text="nothing"
+        android:onClick="startApp" />
     </LinearLayout>
 
 <!--xmlns:map="http://schemas.android.com/apk/res-auto"-->

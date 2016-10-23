@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">APeoplesMapofCorvallisApp</string>
     <string name="title_activity_map_selector">AreaMap</string>
+    <string name="title_welcome">Welcome</string>
     <string name="welcome_tit">Welcome to the Peoples Map of Corvallis</string>
     <string name="welcome_text">This app is create with you in mind. Come join us in creating the world we see around us.</string>
     <string name="btn_cont">Contribute</string>
