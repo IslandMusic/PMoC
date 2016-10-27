@@ -10,4 +10,33 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="islandmusic.apeoplesmapofcorvallisapp.MainScreenActivity">
 
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_look"
+        android:layout_marginTop="74dp"
+        android:text="@string/btn_look"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="MapSelector"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_cont"
+        android:text="@string/btn_cont"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="launchCont"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_abt"
+        android:text="@string/btn_abt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:onClick="launchAbout"/>
 </RelativeLayout>
