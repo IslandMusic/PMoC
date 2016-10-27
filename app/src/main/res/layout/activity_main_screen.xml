@@ -19,7 +19,7 @@
         android:text="@string/btn_look"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:onClick="MapSelector"/>
+        android:onClick="launchLook"/>
 
     <Button
         android:layout_width="wrap_content"
