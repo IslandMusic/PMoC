@@ -1,4 +1,4 @@
-<<<<<<< Original<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< Original<<<<<<< Original<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="islandmusic.apeoplesmapofcorvallisapp">
 
 <!--
@@ -41,6 +41,8 @@ https://developer.android.com/guide/components/services.html
 
 <service android:name=".ExampleService" />
 -->
+    <!-- ** X ** -->
+    <!-- ** Main Launcher, asks for a name and then a button click ** -->
     <activity android:name=".WelcomeScreen" android:label="@string/title_welcome">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -49,6 +51,16 @@ https://developer.android.com/guide/components/services.html
 
         </intent-filter>
     </activity>
+
+    <!-- ** X ** -->
+    <!-- ** Accepts name and sends to main activity ** -->
+    <activity android:name="islandmusic.apeoplesmapofcorvallisapp.StartApp">
+
+
+    </activity>
+
+    <!-- ** X ** -->
+    <!-- ** Gets called to display Gmap ** -->
     <activity android:name=".MapSelector" android:label="@string/title_activity_map_selector">
         <intent-filter>
             <!--<action android:name="android.intent.action.MAIN" />
@@ -57,11 +69,14 @@ https://developer.android.com/guide/components/services.html
 
         </intent-filter>
     </activity>
-</application>
 
-</manifest>=======<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ** X ** -->
+    <!-- ** Main Screen Called after App Start ** -->
+    <activity android:name="islandmusic.apeoplesmapofcorvallisapp.MainScreenActivity">
 
-<application>
-    <activity android:name="islandmusic.apeoplesmapofcorvallisapp.StartApp"></activity>
+    </activity>
+
+
 </application>
-</manifest>>>>>>>> Added
+</manifest>
+
