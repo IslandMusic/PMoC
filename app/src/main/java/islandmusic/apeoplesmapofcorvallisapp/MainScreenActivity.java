@@ -1,5 +1,6 @@
 package islandmusic.apeoplesmapofcorvallisapp;
 
+import com.islandmusic.apeoplesmapofcorvallisapp.R;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
