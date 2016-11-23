@@ -9,11 +9,11 @@ package="islandmusic.apeoplesmapofcorvallisapp">
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <!--android:name="android.permission.INTERNET"-->
 
-<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="23" />
+<uses-sdk  /><!--android:minSdkVersion="23" android:targetSdkVersion="23"-->
 
 <application android:allowBackup="true" android:icon="@mipmap/ic_launcher"
-    android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme">
-    android:name="android.support.multidex.MultiDexApplication"
+    android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.support.multidex.MultiDexApplication">
+
 
     <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -43,16 +43,15 @@ https://developer.android.com/guide/components/services.html
 -->
     <!-- ** X ** -->
     <!-- ** Main Launcher, asks for a name and then a button click ** -->
-    <activity android:name=".WelcomeScreen" android:label="@string/title_welcome">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
+    <activity android:name="islandmusic.apeoplesmapofcorvallisapp.MainActivity" android:label="@string/title_welcome">
+        <!--<intent-filter>
+    <action android:name="android.intent.action.MAIN" />
+    <category android:name="android.intent.category.LAUNCHER" />
 
+</intent-filter>-->
+</activity>
 
-        </intent-filter>
-    </activity>
-
-    <!-- ** X ** -->
+<!-- ** X ** -->
     <!-- ** Accepts name and sends to main activity ** -->
     <activity android:name="islandmusic.apeoplesmapofcorvallisapp.StartApp">
 
@@ -61,10 +60,10 @@ https://developer.android.com/guide/components/services.html
 
     <!-- ** X ** -->
     <!-- ** Gets called to display Gmap ** -->
-    <activity android:name=".MapSelector" android:label="@string/title_activity_map_selector">
+    <activity android:name="MapSelector" android:label="@string/title_activity_map_selector">
         <intent-filter>
-            <!--<action android:name="android.intent.action.MAIN" />
-                 <category android:name="android.intent.category.LAUNCHER" />-->
+            <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.LAUNCHER" />
 
 
         </intent-filter>
