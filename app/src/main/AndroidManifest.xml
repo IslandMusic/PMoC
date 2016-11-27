@@ -25,15 +25,16 @@ package="islandmusic.apeoplesmapofcorvallisapp">
         -->
     <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key" />
 
-
-    <!--<activity
-            android:name=".Welcome"
-            android:label="@string/title_activity_welcome">
+    <!-- ** X ** -->
+    <!-- ** Main Launcher, asks for a name and then a button click; TEMPORARILY DISABLED ** -->
+    <activity
+            android:name=".WelcomeScreen"
+            android:label="Welcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>-->
+        </activity>
 
     <!--Multiple intent filters for
 https://developer.android.com/guide/components/intents-filters.html
@@ -41,32 +42,24 @@ https://developer.android.com/guide/components/services.html
 
 <service android:name=".ExampleService" />
 -->
+
+
     <!-- ** X ** -->
-    <!-- ** Main Launcher, asks for a name and then a button click ** -->
-    <activity android:name="islandmusic.apeoplesmapofcorvallisapp.MainActivity" android:label="@string/title_welcome">
-        <!--<intent-filter>
-    <action android:name="android.intent.action.MAIN" />
-    <category android:name="android.intent.category.LAUNCHER" />
-
-</intent-filter>-->
-</activity>
-
-<!-- ** X ** -->
     <!-- ** Accepts name and sends to main activity ** -->
     <activity android:name="islandmusic.apeoplesmapofcorvallisapp.StartApp">
 
 
-    </activity>
+</activity>
 
-    <!-- ** X ** -->
+<!-- ** X ** -->
     <!-- ** Gets called to display Gmap ** -->
     <activity android:name="MapSelector" android:label="@string/title_activity_map_selector">
-        <intent-filter>
+        <!--<intent-filter>
             <action android:name="android.intent.action.MAIN" />
                  <category android:name="android.intent.category.LAUNCHER" />
 
 
-        </intent-filter>
+        </intent-filter>-->
     </activity>
 
     <!-- ** X ** -->

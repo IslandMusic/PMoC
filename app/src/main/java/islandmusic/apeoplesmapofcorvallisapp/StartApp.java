@@ -14,12 +14,12 @@ public class StartApp extends AppCompatActivity {
         setContentView(R.layout.activity_start_app);
 
         Intent intent = getIntent();
-        String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        String message = intent.getStringExtra(MainScreenActivity.EXTRA_MESSAGE);
         TextView textView = new TextView(this);
         textView.setTextSize(40);
         textView.setText(message);
 
-        ViewGroup layout = (ViewGroup) findViewById(R.id.activity_display_message);
+        ViewGroup layout = (ViewGroup) findViewById(R.id.activity_start_app);
         layout.addView(textView);
     }
 }

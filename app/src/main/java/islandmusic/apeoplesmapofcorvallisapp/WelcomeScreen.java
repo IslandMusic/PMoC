@@ -9,10 +9,11 @@ import android.widget.EditText;
 
 
 public class WelcomeScreen extends AppCompatActivity {
-    @Override
+    //@Override
+    public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.welcome_screen);
     }
 
     /** Called when the user clicks the Send button */
