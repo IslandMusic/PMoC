@@ -14,4 +14,9 @@
     <string name="tmp">temp</string>
     <string name="nothing">nothing</string>
     <string name="app_start">The App is Starting…</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

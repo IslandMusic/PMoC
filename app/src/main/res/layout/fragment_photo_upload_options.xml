@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context="islandmusic.apeoplesmapofcorvallisapp.PhotoUploadOptions">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:text="@string/gallery"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Gallery"
+        android:layout_gravity="center_horizontal"/>
+
+</FrameLayout>
